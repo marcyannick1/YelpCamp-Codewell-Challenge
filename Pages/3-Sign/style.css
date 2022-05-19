@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    width: 60%;
+    padding: 50px 10%;
+}
+.left div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left div a{
+    color: gray;
+}
+h1{
+    font-size: 2em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: gray;
+    margin-bottom: 20px;
+}
+input{
+    background-color: #f7f7f7;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.left button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.left div:last-child a{
+    color: #0199da;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.right{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background-color: #f9f6f1;
+    height: 100vh;
+    padding: 0 10%;
+}
+.right p{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.right_container div.profil{
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Responsive */
+@media (max-width:1200px) {
+    .right{
+        padding: 6%;
+    }
+}
+@media (max-width:911px) {
+    .left{
+        row-gap: 70px;
+    }
+
+}
+@media (max-width:800px) {
+    body{
+        flex-direction: column;
+    }
+    .left,.right{
+        width: auto;
+        height: auto;
+    }
+}
