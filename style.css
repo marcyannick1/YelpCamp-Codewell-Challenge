@@ -102,7 +102,7 @@ button:hover{
         margin: 0;
     }
     .logo_before a::before{
-        content: url(../../Assets/Logo.svg);
+        content: url(Assets/Logo.svg);
         display: block;
         margin: 20px;
     }
