@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 0.2px;
+    color: black;
 }
 body{
     font-family: 'DM Sans', sans-serif;
@@ -161,7 +162,7 @@ button:hover{
     }
     /* main */
     section{
-        padding: 55px;
+        padding: 55px 30px;
     }
     .intro_main section div:first-child{
         width: auto;
